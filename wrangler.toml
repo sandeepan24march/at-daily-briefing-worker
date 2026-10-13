@@ -1,0 +1,13 @@
+name = "at-daily-briefing"
+main = "src/index.js"
+compatibility_date = "2026-10-13"
+
+[triggers]
+crons = ["30 1 * * *"]
+
+[[kv_namespaces]]
+binding = "BRIEFING_KV"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+
+[vars]
+OPENAI_MODEL = "gpt-4.1-mini"
