@@ -1,0 +1,9 @@
+
+{
+  "name": "at-daily-briefing-worker",
+  "private": true,
+  "version": "1.0.0",
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
